@@ -77,6 +77,22 @@ main {
   transform-origin: top right;
 }
 
+.flexImage-gallery__list .flexImage-gallery__item:nth-child(2) img {
+  transform-origin: 50% 0;
+}
+
+.flexImage-gallery__list .flexImage-gallery__item:nth-child(4) img {
+  transform-origin: 0 50%;
+}
+
+.flexImage-gallery__list .flexImage-gallery__item:nth-child(6) img {
+  transform-origin: right 50%;
+}
+
+.flexImage-gallery__list .flexImage-gallery__item:nth-child(8) img {
+  transform-origin: 50% bottom;
+}
+
 .flexImage-gallery__list .flexImage-gallery__item:first-child img {
   transform-origin: top left;
 }
